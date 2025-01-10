@@ -1,0 +1,7 @@
+local player = game.Players.LocalPlayer
+
+if player.Name == "Bi_hubun" or player.Name == "BaoDuyCaygame3" or player.Name == "atftmdcttr" or player.Name == "boy1963boy" or player.Name == "noobpet570" then
+    print("Quỳ xuống")
+else
+    player:Kick("địt mẹ bú liếm con cặc t địt cả lò nhà mày mẹ mày là con phò Quỳ Xuống")
+end
