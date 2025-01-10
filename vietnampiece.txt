@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "bsi628vs529b" --Put The Correct Key Here
+getgenv().Key = "skibidi" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
@@ -79,7 +79,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Copy Key",
 	Callback = function()
-      		setclipboard("https://yeumoney.com/1Ms1IW") --This Will Copy The Link Of The Key
+      		setclipboard("https://yeumoney.com/SC1ITxJE7") --This Will Copy The Link Of The Key
   	end    
 }) 
     
