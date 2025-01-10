@@ -9,7 +9,7 @@ local Player = game.Players.LocalPlayer --This Will Reveal The Player Name
 }) --This Will Load The Script Hub
 
 function MakeScriptHub()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/cghhhg/Siu/refs/heads/main/nah.txt"))() --Put The Script That Will Load If The Key Is Correct Here
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/cghhhg/Siu/refs/heads/main/no.txt'))() --Put The Script That Will Load If The Key Is Correct Here
 end
 
 OrionLib:MakeNotification({
@@ -19,7 +19,7 @@ OrionLib:MakeNotification({
 	Time = 5
 }) --Notification
 
-getgenv().Key = "grw076eiwy7" ) 
+getgenv().Key = "bsi628vs529b" --Put The Correct Key Here
 getgenv().KeyInput = "string" --Require For The Key To Work
 
 local Tab = Window:MakeTab({
@@ -67,8 +67,8 @@ Tab:AddButton({
             })
             wait(2)
             OrionLib:MakeNotification({
-                Name = "Incorrect Key!",
-                Content = "get key đi fen ơi",
+                Name = "getkey đi",
+                Content = "The key you entered is incorrect.",
                 Image = "rbxassetid://4483345998",
                 Time = 5
             })
@@ -79,8 +79,8 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Copy Key",
 	Callback = function()
-      		setclipboard("https://yeumoney.com/FOodMX")
+      		setclipboard("https://yeumoney.com/1Ms1IW") --This Will Copy The Link Of The Key
   	end    
 }) 
     
-OrionLib:Init()
+OrionLib:Init() --Require If The Script Is Done
